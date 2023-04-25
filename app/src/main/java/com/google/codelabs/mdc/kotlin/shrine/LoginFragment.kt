@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.shr_login_fragment.view.*
+import kotlinx.android.synthetic.main.shr_signup_fragment.view.*
 
 class LoginFragment : Fragment() {
 
@@ -18,6 +19,13 @@ class LoginFragment : Fragment() {
         view.button3.setOnClickListener {
             (activity as NavigationHost).navigateTo(
                 HomeFragment(),
+                true
+            ) // Navigate to the next Fragment
+        }
+
+        view.BackButton1.setOnClickListener {
+            (activity as NavigationHost).navigateTo(
+                SignupLoginFragment(),
                 true
             ) // Navigate to the next Fragment
         }

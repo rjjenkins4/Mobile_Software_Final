@@ -27,15 +27,16 @@
         android:id="@+id/textView8"
         android:layout_width="247dp"
         android:layout_height="0dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:text="Home"
         android:textColor="@color/black"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/toolbar2" />
+        app:layout_constraintTop_toTopOf="@+id/toolbar2"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView9"
@@ -54,6 +55,7 @@
         app:layout_constraintStart_toStartOf="@+id/toolbar2"
         app:layout_constraintTop_toBottomOf="@+id/toolbar2" />
 
+
     <Button
         android:id="@+id/button8"
         android:layout_width="176dp"
@@ -63,13 +65,16 @@
         android:layout_marginBottom="498dp"
         android:background="@color/loginPageBackgroundColor"
         android:text="Mobile Software Development"
-        android:textColor="@color/loginPageBackgroundColor"
+        android:textColor="@color/black"
         android:textColorHint="@color/loginPageBackgroundColor"
-        android:textSize="18sp"
+        android:textSize="17sp"
         app:backgroundTint="#FFC107"
         app:iconTint="@color/loginPageBackgroundColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9"
         app:rippleColor="@color/productGridBackgroundColor" />
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

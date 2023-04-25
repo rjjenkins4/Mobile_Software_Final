@@ -20,6 +20,6 @@
     <string name="shr_dresses_label">Dresses</string>
     <string name="shr_account_label">My Account</string>
     <string name="shr_logo_content_description">Shrine Logo</string>
-
+    <string name= "No_other_enrolled_courses">Empty</string>
     <string name="app_name">The End</string>
 </resources>

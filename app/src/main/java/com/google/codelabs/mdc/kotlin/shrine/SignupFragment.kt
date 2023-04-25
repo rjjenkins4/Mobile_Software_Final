@@ -26,6 +26,13 @@ class SignupFragment : Fragment() {
                 true
             ) // Navigate to the next Fragment
         }
+        view.BackButton0.setOnClickListener {
+            (activity as NavigationHost).navigateTo(
+                SignupLoginFragment(),
+                true
+            ) // Navigate to the next Fragment
+        }
+
         return view
     }
 }

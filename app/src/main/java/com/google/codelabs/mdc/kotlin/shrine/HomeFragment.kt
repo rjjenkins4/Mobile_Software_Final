@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.shr_course_page_fragment.view.*
 import kotlinx.android.synthetic.main.shr_home_fragment.view.*
 import kotlinx.android.synthetic.main.shr_login_fragment.view.*
+import kotlinx.android.synthetic.main.shr_start_here_fragment.view.*
 
 class HomeFragment : Fragment() {
 
