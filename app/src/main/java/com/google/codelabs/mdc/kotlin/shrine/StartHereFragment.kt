@@ -6,18 +6,9 @@ import android.view.Menu
 import android.view.MenuInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.AdapterView
-import android.widget.ArrayAdapter
-import android.widget.Spinner
-import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.google.codelabs.mdc.kotlin.shrine.network.ProductEntry
-import kotlinx.android.synthetic.main.shr_product_grid_fragment.view.*
 
-class ProductGridFragment : Fragment() {
+class StartHereFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,13 +18,9 @@ class ProductGridFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment with the ProductGrid theme
-        val view = inflater.inflate(R.layout.shr_product_grid_fragment, container, false)
-
-        // Set up the toolbar.
-        (activity as AppCompatActivity).setSupportActionBar(view.app_bar)
+        val view = inflater.inflate(R.layout.shr_start_here_fragment, container, false)
 
         // Set up the RecyclerView
-
 
         return view;
     }

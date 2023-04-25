@@ -5,7 +5,7 @@ import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 
 /**
- * Custom item decoration for a vertical [ProductGridFragment] [RecyclerView]. Adds a
+ * Custom item decoration for a vertical [StartHereFragment] [RecyclerView]. Adds a
  * small amount of padding to the left of grid items, and a large amount of padding to the right.
  */
 class ProductGridItemDecoration(private val largePadding: Int, private val smallPadding: Int) : RecyclerView.ItemDecoration() {

@@ -5,23 +5,24 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import kotlinx.android.synthetic.main.shr_course_page_fragment.view.*
+import kotlinx.android.synthetic.main.shr_home_fragment.view.*
 import kotlinx.android.synthetic.main.shr_login_fragment.view.*
 
-class LoginFragment : Fragment() {
+class HomeFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        val view = inflater.inflate(R.layout.shr_login_fragment, container, false)
+        val view = inflater.inflate(R.layout.shr_home_fragment, container, false)
 
         // Set an error if the password is less than 8 characters.
-        view.button3.setOnClickListener {
+        view.button8.setOnClickListener {
             (activity as NavigationHost).navigateTo(
-                HomeFragment(),
+                CoursePage(),
                 true
             ) // Navigate to the next Fragment
         }
-
         return view
     }
 }
