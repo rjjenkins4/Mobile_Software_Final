@@ -6,9 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.shr_signup_login_fragment.view.*
-import kotlinx.android.synthetic.main.shr_signup_fragment.view.*
-import kotlinx.android.synthetic.main.shr_signup_fragment.view.*
-import kotlinx.android.synthetic.main.shr_signup_login_fragment.view.*
+
 
 
 class SignupLoginFragment : Fragment() {

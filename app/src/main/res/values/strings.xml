@@ -22,4 +22,5 @@
     <string name="shr_logo_content_description">Shrine Logo</string>
     <string name= "No_other_enrolled_courses">Empty</string>
     <string name="app_name">The End</string>
+    <string name="Lab9"><a href='https://www.google.com/search'>https://www.google.com/search</a></string>
 </resources>
